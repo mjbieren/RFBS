@@ -42,6 +42,8 @@ Aagrestis_OXF@17242 -
 - `Aagrestis_BONN	+` → Removes **all headers** containing `Aagrestis_BONN`
 - `Aagrestis_OXF@17242	-` → Removes only the **single header** `Aagrestis_OXF@17242`
 
+See [HeaderFile.tsv](https://github.com/mjbieren/RFBS/blob/main/HeaderFile.tsv) for an example.
+
 ---
 
 ## ⚙️ Command Line Options
@@ -60,6 +62,9 @@ RFBS.out -f <FastaFileFolder> -h <HeaderFilePath> -r <OutputFolderPath> [-p]
 | `-h` | **Header file** that contains the list of headers/strains to remove. **(Required)** |
 | `-r` | **Output folder** where the filtered FASTA files will be saved. **(Required)** |
 | `-p` | Optional flag. If set, FASTA headers will be **converted to PhyloPyPruner format**. |
+
+
+See [RFBS.sh](https://github.com/mjbieren/RFBS/blob/main/RFBS.sh) for an example script.
 
 ---
 
