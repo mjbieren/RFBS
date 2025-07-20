@@ -2,6 +2,9 @@
 
 **RFBS** is a lightweight tool designed to clean FASTA files by removing specified sequences based on strain names or specific headers. It works by reading a list of target entries (strains or exact headers) from a user-defined file and excluding those sequences from the output.
 
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)  
+![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
+
 ---
 
 ## 📋 Overview
@@ -81,8 +84,12 @@ Filtered FASTA files will be written to the provided output folder, with only th
 
 ## 🛠️ Compilation Notes
 
-RFBS is a C++ tool compiled with Boost v1.88 using GCC on Linux.  
-Precompiled executables may be available in the main project repository under `/Executables`.
+Precompiled static executables available:  
+
+- Debian 12: [RFBS_Static_Debian.out](https://github.com/mjbieren/RFBS/blob/main/Sources/Executables/RFBS_Static_Debian.out)  
+- Rocky Linux 8: [RFBS_Static_HPC.out](https://github.com/mjbieren/RFBS/blob/main/Sources/Executables/RFBS_Static_HPC.out)  
+
+Or compile from source. (Boost library 1.88, Visual Studio 2019, GCC compiler)
 
 ---
 
